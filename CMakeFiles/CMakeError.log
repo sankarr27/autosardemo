@@ -1,0 +1,42 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Z0030401/Documents/autosardemo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe cmTC_46ccf/fast && C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_46ccf.dir\build.make CMakeFiles/cmTC_46ccf.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Z0030401/Documents/autosardemo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46ccf.dir/testCCompiler.c.obj
+C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE    -o CMakeFiles\cmTC_46ccf.dir\testCCompiler.c.obj   -c C:\Users\Z0030401\Documents\autosardemo\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_46ccf.exe
+C:\tools\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_46ccf.dir\link.txt --verbose=1
+C:\tools\cmake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_46ccf.dir/objects.a
+C:\PROGRA~2\INTEGR~1\Toolkit\mksnt\ar.exe cr CMakeFiles\cmTC_46ccf.dir/objects.a @CMakeFiles\cmTC_46ccf.dir\objects1.rsp
+ar: file "@CMakeFiles/cmTC_46ccf.dir/objects1.rsp": The system cannot find the path specified. 
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_46ccf.dir\build.make:104: cmTC_46ccf.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Z0030401/Documents/autosardemo/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:137: cmTC_46ccf/fast] Error 2
+
+
+
