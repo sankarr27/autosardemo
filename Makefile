@@ -220,6 +220,33 @@ bsw/ecuab/IoHwAb/IoHwAb.c.s:
 	$(MAKE) -f CMakeFiles\autosardemo.dir\build.make CMakeFiles/autosardemo.dir/bsw/ecuab/IoHwAb/IoHwAb.c.s
 .PHONY : bsw/ecuab/IoHwAb/IoHwAb.c.s
 
+bsw/ecuab/IoHwAb/IoHwAb_Digital.obj: bsw/ecuab/IoHwAb/IoHwAb_Digital.c.obj
+
+.PHONY : bsw/ecuab/IoHwAb/IoHwAb_Digital.obj
+
+# target to build an object file
+bsw/ecuab/IoHwAb/IoHwAb_Digital.c.obj:
+	$(MAKE) -f CMakeFiles\autosardemo.dir\build.make CMakeFiles/autosardemo.dir/bsw/ecuab/IoHwAb/IoHwAb_Digital.c.obj
+.PHONY : bsw/ecuab/IoHwAb/IoHwAb_Digital.c.obj
+
+bsw/ecuab/IoHwAb/IoHwAb_Digital.i: bsw/ecuab/IoHwAb/IoHwAb_Digital.c.i
+
+.PHONY : bsw/ecuab/IoHwAb/IoHwAb_Digital.i
+
+# target to preprocess a source file
+bsw/ecuab/IoHwAb/IoHwAb_Digital.c.i:
+	$(MAKE) -f CMakeFiles\autosardemo.dir\build.make CMakeFiles/autosardemo.dir/bsw/ecuab/IoHwAb/IoHwAb_Digital.c.i
+.PHONY : bsw/ecuab/IoHwAb/IoHwAb_Digital.c.i
+
+bsw/ecuab/IoHwAb/IoHwAb_Digital.s: bsw/ecuab/IoHwAb/IoHwAb_Digital.c.s
+
+.PHONY : bsw/ecuab/IoHwAb/IoHwAb_Digital.s
+
+# target to generate assembly for a file
+bsw/ecuab/IoHwAb/IoHwAb_Digital.c.s:
+	$(MAKE) -f CMakeFiles\autosardemo.dir\build.make CMakeFiles/autosardemo.dir/bsw/ecuab/IoHwAb/IoHwAb_Digital.c.s
+.PHONY : bsw/ecuab/IoHwAb/IoHwAb_Digital.c.s
+
 rte/Rte.obj: rte/Rte.c.obj
 
 .PHONY : rte/Rte.obj
@@ -247,6 +274,33 @@ rte/Rte.c.s:
 	$(MAKE) -f CMakeFiles\autosardemo.dir\build.make CMakeFiles/autosardemo.dir/rte/Rte.c.s
 .PHONY : rte/Rte.c.s
 
+rte/Rte_application.obj: rte/Rte_application.c.obj
+
+.PHONY : rte/Rte_application.obj
+
+# target to build an object file
+rte/Rte_application.c.obj:
+	$(MAKE) -f CMakeFiles\autosardemo.dir\build.make CMakeFiles/autosardemo.dir/rte/Rte_application.c.obj
+.PHONY : rte/Rte_application.c.obj
+
+rte/Rte_application.i: rte/Rte_application.c.i
+
+.PHONY : rte/Rte_application.i
+
+# target to preprocess a source file
+rte/Rte_application.c.i:
+	$(MAKE) -f CMakeFiles\autosardemo.dir\build.make CMakeFiles/autosardemo.dir/rte/Rte_application.c.i
+.PHONY : rte/Rte_application.c.i
+
+rte/Rte_application.s: rte/Rte_application.c.s
+
+.PHONY : rte/Rte_application.s
+
+# target to generate assembly for a file
+rte/Rte_application.c.s:
+	$(MAKE) -f CMakeFiles\autosardemo.dir\build.make CMakeFiles/autosardemo.dir/rte/Rte_application.c.s
+.PHONY : rte/Rte_application.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -265,9 +319,15 @@ help:
 	@echo ... bsw/ecuab/IoHwAb/IoHwAb.obj
 	@echo ... bsw/ecuab/IoHwAb/IoHwAb.i
 	@echo ... bsw/ecuab/IoHwAb/IoHwAb.s
+	@echo ... bsw/ecuab/IoHwAb/IoHwAb_Digital.obj
+	@echo ... bsw/ecuab/IoHwAb/IoHwAb_Digital.i
+	@echo ... bsw/ecuab/IoHwAb/IoHwAb_Digital.s
 	@echo ... rte/Rte.obj
 	@echo ... rte/Rte.i
 	@echo ... rte/Rte.s
+	@echo ... rte/Rte_application.obj
+	@echo ... rte/Rte_application.i
+	@echo ... rte/Rte_application.s
 .PHONY : help
 
 

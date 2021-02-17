@@ -37,11 +37,3 @@ Std_ReturnType DigitalOutput_Set(IoHwAb_SignalType signalId,
 	IoHwAb_StatusType status;
 	return IoHwAb_Set_Digital( signalId, value, &status );
 }
-
-Std_ReturnType IoHwAb_Get_Digital(IoHwAb_SignalType signal, IoHwAb_LevelType *value, IoHwAb_StatusType *status) {
-
-}
-
-Std_ReturnType IoHwAb_Set_Digital(IoHwAb_SignalType signal, IoHwAb_LevelType newValue, IoHwAb_StatusType *status) {
-
-}

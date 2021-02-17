@@ -5,6 +5,8 @@ project (autosardemo)
 add_executable(autosardemo application/main.c
 							application/application.c
 							rte/Rte.c
+							rte/Rte_application.c
+							bsw/ecuab/IoHwAb/IoHwAb_Digital.c
 							bsw/ecuab/IoHwAb/IoHwAb.c
 )
 
