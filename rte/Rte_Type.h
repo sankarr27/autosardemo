@@ -54,4 +54,32 @@ typedef uint16 IoHwAb_SignalType;
 
 #define _DEFINED_TYPEDEF_FOR_IoHwAb_SignalType_ 
 
+typedef uint8 DigitalLevel;
+#ifndef Low
+#define Low ((DigitalLevel)0)
+#endif /*Low*/
+#ifndef High
+#define High ((DigitalLevel)1)
+#endif /*High*/
+#define DigitalLevel_LowerLimit 0
+#define DigitalLevel_UpperLimit 1
+
+#define _DEFINED_TYPEDEF_FOR_DigitalLevel_ 
+
+typedef uint8 SignalQuality;
+#ifndef SignalQuality_InitialValue
+#define SignalQuality_InitialValue ((SignalQuality)0)
+#endif /*SignalQuality_InitialValue*/
+#ifndef SignalQuality_Error
+#define SignalQuality_Error ((SignalQuality)1)
+#endif /*SignalQuality_Error*/
+#ifndef SignalQuality_Bad
+#define SignalQuality_Bad ((SignalQuality)2)
+#endif /*SignalQuality_Bad*/
+#ifndef SignalQuality_Good
+#define SignalQuality_Good ((SignalQuality)3)
+#endif /*SignalQuality_Good*/
+#define SignalQuality_LowerLimit 0
+#define SignalQuality_UpperLimit 3
+
 #endif

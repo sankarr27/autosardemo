@@ -1,7 +1,8 @@
 #ifndef RTE_H_
 #define RTE_H_
 
-#include "Platform_Types.h"
+#include "Std_Types.h"
+#include "Platform_Types.h" // TODO: move
 #include "Compiler.h"
 
 // Errors
